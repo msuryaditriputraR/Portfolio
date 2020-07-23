@@ -1,0 +1,42 @@
+aside .logo a::before {
+    border-top: 4px solid #72b626;
+    border-left: 4px solid #72b626;
+}
+
+aside .logo a::after {
+    border-bottom: 4px solid #72b626;
+    border-right: 4px solid #72b626;
+}
+
+.about .about-content .about-text h3 span,
+aside .nav li a:hover,
+aside .nav li a.active,
+.services .service-item .service-item-inner .icon .fa,
+.portfolio .portfolio-filter button.active,
+.portfolio .portfolio-item .portfolio-info .icon .fa,
+.lightbox .lightbox-controls .prev-item .fa,
+.lightbox .lightbox-controls .next-item .fa,
+.blog .blog-item-inner .blog-info .blog-tags a,
+.contact .contact-item .icon .fa {
+    color: #72b626;
+}
+
+.btn,
+.section-title h2::before,
+.section-title h2::after,
+aside .nav-toggle span,
+aside .nav-toggle span::before,
+aside .nav-toggle span::after,
+.home .intro .social-links a,
+.about .about-content .skills .skill-item .progress .progress-in,
+.about .about-content .timeline-item::before,
+.about .about-content .timeline-item .circle-dot,
+.services .service-item .service-item-inner:hover .icon,
+.blog .blog-item-inner .blog-img .blog-date,
+.blog .blog-item-inner .blog-info .blog-footer .btn-read {
+    background-color: #72b626;
+}
+
+.portfolio .portfolio-filter button.active {
+    border-color: #72b626;
+}

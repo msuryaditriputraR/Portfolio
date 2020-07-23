@@ -1,0 +1,69 @@
+.color-switch {
+    position: fixed;
+    top: 20px;
+    right: 0;
+    z-index: 5;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #d4d4e3;
+    border-right: none;
+    border-radius: 0 0 0 5px;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.color-switch.show {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+}
+
+.color-switch h5 {
+    font-size: 16px;
+    color: #302e4d;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e8dfec;
+}
+
+.color-switch ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.color-switch ul li {
+    display: inline-block;
+}
+
+.color-switch ul li a {
+    width: 30px;
+    height: 30px;
+    display: block;
+    border-radius: 50%;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 2px;
+}
+
+.color-switch .toggle-color-switcher {
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    background-color: #fff;
+    left: -46px;
+    top: -1px;
+    border: 1px solid #d4d4e3;
+    border-right: none;
+    text-align: center;
+    line-height: 43px;
+    cursor: pointer;
+    border-radius: 5px 0 0 5px;
+}
+
+.color-switch .toggle-color-switcher .fa {
+    font-size: 20px;
+}
